@@ -3,41 +3,83 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Scholarships, Internships & Opportunities Extension</title>
+    <title>Privacy Policy - Scholarships, Internships & Opportunities Extension</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 40px;
-            background-color: #f9f9f9;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
             color: #333;
         }
-        h1 {
+        p {
+            color: #555;
+        }
+        a {
             color: #1a73e8;
-        }
-        a.button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 24px;
-            background-color: #1a73e8;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        a.button:hover {
-            background-color: #155ab6;
         }
     </style>
 </head>
 <body>
-    <h1>Scholarships, Internships & Opportunities Extension</h1>
+    <h1>Privacy Policy</h1>
+    <p>Effective date: September 2025</p>
+
+    <h2>Introduction</h2>
     <p>
-        Save and track scholarships, internships, and competitions in one place. Never miss important deadlines again.
+        Thank you for using the <strong>Scholarships, Internships & Opportunities</strong> Chrome extension. Your privacy is important to us. This Privacy Policy explains what information we collect, how we use it, and how we protect it.
     </p>
-    <a href="https://chrome.google.com/webstore/detail/your-extension-id" class="button" target="_blank">View on Chrome Web Store</a>
-    <p style="margin-top: 20px;">
-        <a href="privacy-policy.html">Read our Privacy Policy</a>
+
+    <h2>Information We Collect</h2>
+    <p>
+        Our extension does not collect or transmit any personal or sensitive information. The only data it stores is the information you choose to save, such as:
+    </p>
+    <ul>
+        <li>The title, URL, and deadline of opportunities like scholarships, internships, and competitions.</li>
+    </ul>
+    <p>
+        This data is stored locally in your browser using Chrome's <code>storage.local</code> API and is not shared with any third parties.
+    </p>
+
+    <h2>Permissions Used</h2>
+    <p>
+        The extension requests the following permissions to function:
+    </p>
+    <ul>
+        <li><strong>Storage:</strong> To locally save opportunities you add.</li>
+        <li><strong>Tabs & activeTab:</strong> To open links in new tabs and interact with content on the active tab when saving opportunities.</li>
+        <li><strong>Host permissions for <a href="https://givemechallenge.com/" target="_blank">givemechallenge.com</a>:</strong> To access opportunity pages where the save functionality is provided.</li>
+    </ul>
+    <p>
+        These permissions are strictly necessary to provide the core functionality and are not used for tracking or advertising.
+    </p>
+
+    <h2>Data Usage</h2>
+    <p>
+        All data remains on your device and is used only to help you manage saved opportunities and deadlines. We do not transmit, share, or store your data on external servers.
+    </p>
+
+    <h2>Security</h2>
+    <p>
+        We take reasonable measures to ensure that your data remains secure by keeping all saved information within your browser's local storage. We do not use or integrate with third-party services.
+    </p>
+
+    <h2>Children's Privacy</h2>
+    <p>
+        Our extension is not intended for children under 13 years of age, and we do not knowingly collect data from minors.
+    </p>
+
+    <h2>Support</h2>
+    <p>
+        If you have any questions or concerns about this Privacy Policy or the extension’s functionality, please contact our support team at 
+        <a href="mailto:sujith81159@gmail.com">sujith81159@gmail.com</a>.
+    </p>
+
+    <h2>Agreement</h2>
+    <p>
+        By using this extension, you agree to the terms described in this Privacy Policy.
     </p>
 </body>
 </html>
